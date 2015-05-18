@@ -167,7 +167,9 @@ PRODUCT_COPY_FILES += \
 #msm7x30 propietary files
 PRODUCT_COPY_FILES += \
 	vendor/cm/prebuilt/msm7x30/CPU/CPUstats.apk:system/app/CPU/CPUstats.apk \
-	vendor/cm/prebuilt/msm7x30/CPU/CPUsettings.apk:system/app/CPU/CPUsettings.apk
+	vendor/cm/prebuilt/msm7x30/CPU/CPUsettings.apk:system/app/CPU/CPUsettings.apk \
+	vendor/cm/prebuilt/msm7x30/OTA/base.apk:system/priv-app/OTAUpdater/base.apk \
+	vendor/cm/prebuilt/msm7x30/OTA/lib/arm/libbypass.so:system/priv-app/OTAUpdater/lib/arm/libbypass.so
 	
 # CM Platform Library
 PRODUCT_PACKAGES += \
