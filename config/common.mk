@@ -164,6 +164,11 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
     vendor/cm/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
 
+#msm7x30 propietary files
+PRODUCT_COPY_FILES += \
+	vendor/cm/prebuilt/msm7x30/CPU/CPUstats.apk:system/app/CPU/CPUstats.apk \
+	vendor/cm/prebuilt/msm7x30/CPU/CPUsettings.apk:system/app/CPU/CPUsettings.apk
+	
 # CM Platform Library
 PRODUCT_PACKAGES += \
     org.cyanogenmod.platform-res \
