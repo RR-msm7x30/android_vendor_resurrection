@@ -73,6 +73,10 @@ ifneq ($(TARGET_BUILD_VARIANT),eng)
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
+# Copy msm custom changelog to the device
+PRODUCT_COPY_FILES += \
+    vendor/cm/CHANGELOG_MSM.mkdn:system/etc/CHANGELOG-MSM7X30.txt
+
 # Copy over the changelog to the device
 PRODUCT_COPY_FILES += \
     vendor/cm/CHANGELOG.mkdn:system/etc/CHANGELOG-RR.txt

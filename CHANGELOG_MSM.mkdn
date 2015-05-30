@@ -1,0 +1,35 @@
+**********************************************************
+****  Resurrection Remix ROM for msm7x30 based devices ***
+****                   ChangeLog					   ***
+**********************************************************
+  
+  Source Code: http://github.com/RR-msm7x30
+			   http://github.com/ResurrectionRemix
+  
+  Website: http://www.resurrectionremix.com
+  For extended changelog, track github activities
+
+#Resurrection Remix 5.4.6
+
+- Switched to LP 5.1.1_r3
+- Sources synched with CM ones
+- Sources synched with the latest ones from ADC Team
+- Added custom Activity for all the msm7x30 custom preferences
+- Settings is now Dark Material themed
+- ROM built again with the latest K^ Sources (For good this time)
+- persist.sys.force_highendgfx=false
+- Board: Disabled the DEXPREOPT flag in order to compile the apps without the odex files integrated
+- Added custom changelog for the msm7x30 changes 
+- And maybe some more minor changes that i can remember now..
+
+  
+#Resurrection Remix 5.4.5
+
+- Switched to LP 5.1.1_r2
+- Sources synched with CM ones
+- Sources synched with the latest ones from ADC Team
+- ROM Build with ArchiDroid Optimizations
+- ROM build with the latest K^ Sources (3.4.107)
+- OTA Updater is now integrated in the ROM (Option also included into Settings/Configurations)
+- Added CPU Stats and CPU Settings into Configurations in Settings 
+- Changed default DPI value to 216
