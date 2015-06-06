@@ -9,6 +9,18 @@
   Website: http://www.resurrectionremix.com
   For extended changelog, track github activities
 
+#Resurrection Remix 5.4.7
+
+- Sources synched with CM ones
+- Sources synched with the latest ones from ADC Team
+- Reorganized again the msm custom preferences, made also a clean up
+- Removed PitchBlack theme because is not compatible anymore
+- Added entry in Settings for the Xposed Framework, Xposed is not provided by the ROM so you will need to install it at your own
+- Started working on the Framework theme, now most part of it is now dark themed, next to follow is the SystemUI
+- OTA Updater is now hidden in the app drawer so it's available only through Settings
+- The ROM should now be flashed automatically after the download in OTA (This release will not be flashed automatically but only by the next one) (It should, so if it's not working just report)
+- Synched OTA Updater sources with the original ones
+  
 #Resurrection Remix 5.4.6
 
 - Switched to LP 5.1.1_r3
