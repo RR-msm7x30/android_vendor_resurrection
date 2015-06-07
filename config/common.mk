@@ -169,12 +169,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/cm/prebuilt/msm7x30/CPU/CPUstats.apk:system/app/CPUstats.apk \
 	vendor/cm/prebuilt/msm7x30/CPU/CPUsettings.apk:system/app/CPUsettings.apk \
-	vendor/cm/prebuilt/msm7x30/Xposed/app/XposedInstaller.apk:system/app/XposedInstaller.apk \
-	vendor/cm/prebuilt/msm7x30/Xposed/bin/app_process32_xposed:system/bin/app_process32_xposed \
-	vendor/cm/prebuilt/msm7x30/Xposed/bin/patchoat:system/bin/patchoat \
-	vendor/cm/prebuilt/msm7x30/Xposed/framework/XposedBridge.jar:system/framework/XposedBridge.jar \
-	vendor/cm/prebuilt/msm7x30/Xposed/lib/libxposed_art.so:system/lib/libxposed_art.so \
-	vendor/cm/prebuilt/msm7x30/Xposed/xposed.prop:system/xposed.prop 
 	
 # CM Platform Library
 PRODUCT_PACKAGES += \
