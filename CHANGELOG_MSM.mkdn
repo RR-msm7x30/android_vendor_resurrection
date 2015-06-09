@@ -18,8 +18,11 @@
 - Added entry in Settings for the Xposed Framework, Xposed is not provided by the ROM so you will need to install it at your own
 - Started working on the Framework theme, now most part of it is now dark themed, next to follow is the SystemUI
 - OTA Updater is now hidden in the app drawer so it's available only through Settings
+- Aries Parts is now hidden also as the OTAUpdater and the option to access it will be in Settings
+- Xposed Framework and AriesParts options in Settings will be hidden if someone if these apps will not be installed on the device, for example AriesParts is not included in ancora
 - The ROM should now be flashed automatically after the download in OTA (This release will not be flashed automatically but only by the next one) (It should, so if it's not working just report)
 - Synched OTA Updater sources with the original ones
+- New RR Bootanimation (More material style)
   
 #Resurrection Remix 5.4.6
 
