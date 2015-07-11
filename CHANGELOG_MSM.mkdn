@@ -2,12 +2,17 @@
 ****  Resurrection Remix ROM for msm7x30 based devices ***
 ****                   ChangeLog					   ***
 **********************************************************
-  
+
   Source Code: http://github.com/RR-msm7x30
 			   http://github.com/ResurrectionRemix
-  
+
   Website: http://www.resurrectionremix.com
   For extended changelog, track github activities
+
+#Resurrection Remix 5.5.0
+
+- Sources synched with CM ones
+- Swithced to LP 5.1.1_r6 
 
 #Resurrection Remix 5.4.7
 
@@ -23,7 +28,7 @@
 - The ROM should now be flashed automatically after the download in OTA (This release will not be flashed automatically but only by the next one) (It should, so if it's not working just report)
 - Synched OTA Updater sources with the original ones
 - New RR Bootanimation (More material style)
-  
+
 #Resurrection Remix 5.4.6
 
 - Switched to LP 5.1.1_r3
@@ -34,10 +39,10 @@
 - ROM built again with the latest K^ Sources (For good this time)
 - persist.sys.force_highendgfx=false
 - Board: Disabled the DEXPREOPT flag in order to compile the apps without the odex files integrated
-- Added custom changelog for the msm7x30 changes 
+- Added custom changelog for the msm7x30 changes
 - And maybe some more minor changes that i can remember now..
 
-  
+
 #Resurrection Remix 5.4.5
 
 - Switched to LP 5.1.1_r2
@@ -46,5 +51,5 @@
 - ROM Build with ArchiDroid Optimizations
 - ROM build with the latest K^ Sources (3.4.107)
 - OTA Updater is now integrated in the ROM (Option also included into Settings/Configurations)
-- Added CPU Stats and CPU Settings into Configurations in Settings 
+- Added CPU Stats and CPU Settings into Configurations in Settings
 - Changed default DPI value to 216
