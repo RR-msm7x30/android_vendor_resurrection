@@ -49,8 +49,10 @@
   <apn carrier="WIND Internet" mcc="202" mnc="10" apn="gint.b-online.gr" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
   <apn carrier="WIND MMS" mcc="202" mnc="10" apn="mnet.b-online.gr" proxy="" port="" mmsproxy="192.168.200.11" mmsport="9401" mmsc="http://192.168.200.95/servlets/mms" server="" user="" password="" type="mms" />
   <apn carrier="Cyta Mobile" mcc="202" mnc="14" apn="cytamobile" mmsc="http://mmsc.cyta.com.cy" mmsproxy="212.31.96.161" mmsport="8080" type="default,supl,mms" />
-  <apn carrier="Tele2 NL" mcc="204" mnc="02" apn="internet.tele2.nl" mmsc="http://mmsc.tele2.nl" mmsproxy="193.12.40.64" mmsport="8080" type="default,supl,mms" />
-  <apn carrier="Tele2 GPRS" mcc="204" mnc="02" apn="Tele2 GPRS" proxy="130.244.196.090" port="8080" mmsproxy="193.012.040.064" mmsport="8080" mmsc="" server="" user="" password="" type="default,supl,mms" />
+  <apn carrier="Tele2 GPRS" mcc="204" mnc="02" apn="Tele2 GPRS" proxy="130.244.196.090" port="8080" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
+  <apn carrier="Tele2 MMS" mcc="204" mnc="02" apn="Tele2 GPRS" proxy="" port="" mmsproxy="193.012.040.064" mmsport="8080" mmsc="" server="" user="" password="" type="mms" />
+  <apn carrier="Tele2 NL" mcc="204" mnc="02" apn="internet.tele2.nl" type="default,supl" />
+  <apn carrier="Tele2 MMS NL" mcc="204" mnc="02" apn="internet.tele2.nl" mmsc="http://mmsc.tele2.nl" mmsproxy="193.12.40.64" mmsport="8080" type="mms" />
   <apn carrier="MVNO NL" mcc="204" mnc="03" apn="internet.mvno.mobi" user="mvno" password="mvno" authtype="1" type="default,supl" mvno_match_data="20403" mvno_type="imsi" />
   <apn carrier="Sphone Pelephone" mcc="204" mnc="04" apn="sphone.pelephone.net.il" user="pcl@3g" password="pcl" type="default,supl" />
   <apn carrier="Multimedia Pelephone" mcc="204" mnc="04" apn="mms.pelephone.net.il" user="pcl@3g" password="pcl" mmsproxy="10.170.252.104" mmsport="9093" mmsc="http://mmsu.pelephone.net.il/" type="mms" />
@@ -440,8 +442,7 @@
   <apn carrier="Orange Video" mcc="232" mnc="12" apn="orange.video" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="video" password="" authtype="3" type="default,supl" />
   <apn carrier="Yesss" mcc="232" mnc="12" apn="web.yesss.at" type="default,supl" />
   <apn carrier="UBIQUISYS" mcc="234" mnc="01" apn="internet" type="default,supl,mms" />
-  <apn carrier="Tesco" mcc="272" mnc="01" apn="tescomobile.liffeytelecom.com" mmsc="http://mmc1/servlets/mms" mmsproxy="10.1.11.19" mmsport="8080" type="default,supl,mms" />
-  <apn carrier="Tesco Prepay" mcc="234" mnc="01" apn="prepay.tesco-mobile.com" user="tescowap" password="password" server="http://wap.tesco-mobile.com/" proxy="193.113.200.195" port="9201" type="default,supl,mms" />
+  <apn carrier="Tesco UK" mcc="234" mnc="01" apn="prepay.tesco-mobile.com" user="tescowap" password="password" server="http://wap.tesco-mobile.com/" proxy="193.113.200.195" port="9201" type="default,supl,mms" />
   <apn carrier="Vectone Mobile" mcc="234" mnc="01" apn="webuk.mundio.com" type="default,supl" />
   <apn carrier="O2 Internet(pre)" mcc="234" mnc="02" apn="payandgo.o2.co.uk" user="payandgo" password="password" type="default,supl" />
   <apn carrier="O2 Internet(post)" mcc="234" mnc="02" apn="mobile.o2.co.uk" user="O2web" password="password" type="default,supl" />
@@ -498,7 +499,6 @@
   <apn carrier="EE MMS" mcc="234" mnc="30" apn="eezone" user="eesecure" password="secure" mmsc="http://mms/" mmsproxy="149.254.201.135" mmsport="8080" authtype="1" type="mms" />
   <apn carrier="Virgin Mobile" mcc="234" mnc="30" apn="goto.virginmobile.uk" user="user" password="" mmsc="http://mms.virginmobile.co.uk:8002" mmsproxy="193.030.166.002" mmsport="8080" authtype="1" type="default,supl,mms" />
   <apn carrier="Asda Mobile" mcc="234" mnc="30" apn="everywhere" user="eesecure" password="secure" mmsc="http://mms/" mmsproxy="149.254.201.135" mmsport="8080" authtype="1" type="default,supl,mms" />
-  <apn carrier="BT Business" mcc="234" mnc="230" apn="btmobile.bt.com" user="bt" password="bt" mmsc="http://mms/" mmsproxy="149.254.201.135" mmsport="8080" authtype="1" type="default,supl,mms" />
   <apn carrier="T-Mobile Internet" mcc="234" mnc="31" apn="general.t-mobile.uk" proxy="" port="" user="t-mobile" password="tm" server="" mmsc="" mmsproxy="" mmsport="" authtype="1" type="default,supl" />
   <apn carrier="T-Mobile Broadband" mcc="234" mnc="31" apn="broadband.t-mobile.uk" user="T-Mobile" password="TM" type="default,dun" />
   <apn carrier="T-Mobile PictureMessage" mcc="234" mnc="31" apn="general.t-mobile.uk" proxy="" port="" user="t-mobile" password="tm" server="" mmsc="http://mmsc.t-mobile.co.uk:8002" mmsproxy="149.254.201.135" mmsport="8080" authtype="1" type="mms" />
