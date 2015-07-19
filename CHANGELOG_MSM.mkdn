@@ -9,6 +9,12 @@
   Website: http://www.resurrectionremix.com
   For extended changelog, track github activities
 
+#Resurrection Remix 5.5.1
+
+- Sources synched with CM ones
+- Swithced to LP 5.1.1_r8
+- Removed unused preferences in about phone in Settings  
+
 #Resurrection Remix 5.5.0
 
 - Sources synched with CM ones
