@@ -175,7 +175,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/cm/prebuilt/msm7x30/CPU/CPUstats.apk:system/app/CPUstats.apk \
 	vendor/cm/prebuilt/msm7x30/CPU/CPUsettings.apk:system/app/CPUsettings.apk \
-	vendor/cm/prebuilt/msm7x30/OTAUpdates/OTAUpdates.apk:system/priv-app/OTAUpdates.apk
+	vendor/cm/prebuilt/msm7x30/OTAUpdates/OTAUpdates.apk:system/priv-app/OTAUpdates.apk \
+	vendor/cm/prebuilt/msm7x30/QuickBoot/QuickBoot.apk:system/priv-app/QuickBoot.apk
 
 # CM Platform Library
 PRODUCT_PACKAGES += \
