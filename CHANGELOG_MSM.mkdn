@@ -1,13 +1,12 @@
-**********************************************************
-****  Resurrection Remix ROM for msm7x30 based devices ***
-****                   ChangeLog		       ***
-**********************************************************
+
+  RR-msm7x30 
+  Resurrection Remix for msm7x30 based devices
 
   Source Code: http://github.com/RR-msm7x30
 	       http://github.com/ResurrectionRemix
 
   Website: http://www.resurrectionremix.com
-  For extended changelog, track github activities
+  For extended changelog, track Github activities
 
 #Resurrection Remix 5.5.2
 
@@ -16,9 +15,11 @@
 - Fixed bad string in Settings regarding the Android version (Yeah it's LP 5.1.1_r8)
 - Added QuickBoot feature in the ROM and it is available in the development settings
 - Updated OTAUpdates
-- For Ariesve: persist.sys.force_highendgfx=true (Switched back cause many users reported that is impossible to use some options due to graphics 		       overlays and glitches)
-- For Ancora: Finally torch and flashled problems are fully fixed (full credits go to sirmordred)
-	      Using now sirmordred's kernel sources cause there are much more updated for that device  
+ For Ariesve: 
+- persist.sys.force_highendgfx=true (Switched back cause many users reported that is impossible to use some options due to graphics overlays and glitches)
+ For Ancora: 
+- Finally torch and flashled problems are fully fixed (full credits go to sirmordred)
+- Using now sirmordred's kernel sources cause there are much more updated for that device  
 - Added XtremeMusic Audio Mod which can be downloaded as an optional package available through OTA
 - I know maybe some of you will not find the wanted feature/es to be included 
   But there is still one more release to make so till then you guys continue
