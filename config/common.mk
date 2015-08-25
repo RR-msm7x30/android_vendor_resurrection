@@ -164,7 +164,8 @@ PRODUCT_PACKAGES += \
     LockClock \
     CMAccount \
     CMHome \
-    OTAUpdates
+    OTAUpdates \
+    RRWallpapers
 
 # SuperSU
 PRODUCT_COPY_FILES += \
