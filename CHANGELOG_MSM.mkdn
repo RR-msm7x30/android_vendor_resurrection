@@ -8,6 +8,75 @@
   Website: http://www.resurrectionremix.com
   For extended changelog, track Github activities
 
+#Resurrection Remix 5.5.4
+
+- Switched to LP 5.1.1_r13
+- Sources synched with the latest ones from CM
+- Sources synched with the latest ones from ADC Team
+- ROM build without ArchiDroid Optimizations (Many compilation errors, so it's not worth it ) 
+- ROM with the latest K^ Kernel (3.4.18)
+- device: Use half-res boot animation (Credits: sirmordred)
+- Changed default DPI value to 216 (Credits: nilac8991)
+- Switched SELinux mode to Permissive for both devices (Credits: nilac8991 & sirmordred)
+- Implemented About RR-msm7x30 in msm7x30 custom configurations (Credits: nilac8991)
+- Removed some unused code in Settings (Credits: nilac8991)
+- Updated OTAUpdates (Credits: MatthewBooth)
+- The "No-Wallpaper" ability with black background screen is now available in the ROM (Credits: nilac8991)
+- GApps are available now through OTA, it's tested by me so there shouldn't be anykind of problem (Credits: nilac8991) 
+- Fix color picking dialog option in Settings (Credits: nilac8991)
+- Fixed Adaptive Brightness option in Settings (as it was not working in the earlier release) (Credits: nilac8991)
+- Fixed some problems regarding Wi-fi (Credits: nilac8991)
+- Updated Default Wallpaper (Credits: nilac8991)
+- Msm7x30 Custom settings are now more detailed (Credits: nilac8991)
+- For the fact that now AncoraParts is build for ancora name of the app in settings will be changed in: Ari/Ora Parts (Credits: nilac8991)
+
+For ariesve:
+
+device/samsung/ariesve
+
+- init: Make fiops as default scheduler (Credits: nilac8991)
+- overlay: Use material style app drawer as the default (Credits: arco)
+- device: Use half-res boot animation (Credits: sirmordred)
+- overlay: Allow all rotations (Credits: sirmordred)
+- Use video codecs for low end devices (Credits: nilac8991)
+- init: Enable adaptive LMK (Credits: cyanogen)  
+
+kernel/samsung/msm7x30
+
+- android: drivers: workaround debugfs race in binder (Credits: sirmordred)
+- block: fiops ioscheduler core (Credits: nilac8991)
+- defconfig: Make Fiops default IO Scheduler for ariesve (Credits: nilac8991)
+
+For ancora: 
+
+device/samsung/ancora
+
+- Use video codecs for low end devices (Credits: sirmordred) 
+- ancora: Implement AncoraParts app (Credits: nilac8991)
+- Remove density from PRODUCT_AAPT_CONFIG (Credits: sirmordred)
+- overlay: Use material style app drawer as the default (Credits: arco)
+- init: Various updates (Credits: sirmordred)
+- init: Enable adaptive LMK (Credits: cyanogen)
+- uevent: Various updates (Credits: sirmordred)
+- liblights: Additional updates (Credits: sirmordred)
+- liblights: Add Generic BLN support (Credits: sirmordred)
+- init: Set perms of BLN sysfs nodes (Credits: sirmordred)
+- init: Don't set scheduler during boot (Credits: sirmordred)
+- overlay: Disable fading marquee again (Credits: sirmordred)
+- power: Do not use GNU old-style field designators (Credits: sirmordred)
+- power: Tune ondemand sampling_rate (Credits: sirmordred)
+
+kernel/samsung/msm7x30-common
+
+- defconfigs: msm7x30: Disable LOGGER (Credits: sirmordred)
+- block: fiops ioscheduler core (Credits: sirmordred)
+- defconfigs: msm7x30: Enable FIOPS ioscheduler (Credits: sirmordred)
+- defconfigs: ancora: Make FIOPS default ioscheduler (Credits: sirmordred)
+- drivers: misc: Generic BLN implementation (Credits: sirmordred)
+- defconfigs: ancora: Update defconfig (Credits: sirmordred)
+- android: drivers: workaround debugfs race in binder (Credits: sirmordred)
+- defconfigs: msm7x30: Use -O2 not -Os (Credits: sirmordred)
+
 #Resurrection Remix 5.5.2
 
 - Sources synched with CM ones
