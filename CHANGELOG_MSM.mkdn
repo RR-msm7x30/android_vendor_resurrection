@@ -14,8 +14,7 @@
 - Sources synched with the latest ones from CM
 - Sources synched with the latest ones from ADC Team
 - ROM build without ArchiDroid Optimizations (Many compilation errors, so it's not worth it ) 
-- ROM with the latest K^ Kernel (3.4.18)
-- device: Use half-res boot animation (Credits: sirmordred)
+- ROM with the latest K^ Kernel (3.4.108)
 - Changed default DPI value to 216 (Credits: nilac8991)
 - Switched SELinux mode to Permissive for both devices (Credits: nilac8991 & sirmordred)
 - Implemented About RR-msm7x30 in msm7x30 custom configurations (Credits: nilac8991)
@@ -53,6 +52,7 @@ device/samsung/ancora
 
 - Use video codecs for low end devices (Credits: sirmordred) 
 - ancora: Implement AncoraParts app (Credits: nilac8991)
+- device: Use half-res boot animation (Credits: sirmordred)
 - Remove density from PRODUCT_AAPT_CONFIG (Credits: sirmordred)
 - overlay: Use material style app drawer as the default (Credits: arco)
 - init: Various updates (Credits: sirmordred)
