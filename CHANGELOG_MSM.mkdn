@@ -2,12 +2,49 @@
   RR-msm7x30 
   Resurrection Remix for msm7x30 based devices
 
-  Source Code: http://github.com/RR-msm7x30
-	       http://github.com/ResurrectionRemix
+Sources code:
+  http://github.com/RR-msm7x30
+  http://github.com/ResurrectionRemix
 
   Website: http://www.resurrectionremix.com
   For extended changelog, track Github activities
 
+#Resurrection Remix 5.5.5
+  
+- Sources synched with the latest ones from CM
+- Settings: BDMT: Implement BlueDark Material theme in Settings (credits: nilac8991)
+- Settings:PowerMenu: Remove entry for screenrecord (credits: nilac8991)
+- framework-base: BMT: Implement Blue Material theme for the entire system framework (credits: nilac8991)
+- ThemeChooser: BMT: Updated colors for ThemeChooser (credits: nilac8991)
+- MediaProvider: BMT: Updated accent color fo MediaProvider (credits: nilac8991)
+- Settings: Fixed HW Keys problem for ancora users (credits: nilac8991)
+
+for ariesve:
+
+device/samsung/ariesve
+
+- BoardConfig: Enable triple framebuffers (credits: sirmordred)
+
+kernel/samsung/msm7x30
+
+- Re-added entry for sio scheduler (credits: nilac8991)
+- block: Corrected entry for sio scheduler (credits: nilac8991)
+- gpu: ion: Adding NULL po,nter and NULL function checks (credits: sirmordred)
+
+for ancora: 
+
+device/samsung/ancora
+
+- BoardConfig: Enable triple framebuffers (credits: sirmordred)
+
+kernel/samsung/msm7x30-common
+
+- drivers: input: melfas: Implement BLN (credits: sirmordred)
+- drivers: input: melfas: Fix ifdefs (credits: sirmordred)
+- drivers: input: melfas: Add more checks for BLN logic to stabilize regulator on/off (credits: sirmordred)
+- gpu: ion: Adding NULL po,nter and NULL function checks (credits: sirmordred)
+- defconfigs: ancora: Corrected bcmdhd fw paths (credits: sirmordred)  
+  
 #Resurrection Remix 5.5.4
 
 - Switched to LP 5.1.1_r13
