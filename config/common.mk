@@ -165,8 +165,9 @@ PRODUCT_PACKAGES += \
     CMAccount \
     CMHome \
     OTAUpdates \
-    RRWallpapers
-
+    RRWallpapers \
+    OmniSwitch	
+    
 # SuperSU
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
