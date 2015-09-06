@@ -294,8 +294,8 @@ ifdef CM_BUILDTYPE
         endif
     endif
 else
-    # OFFICIAL Version Release of RR 
-    CM_BUILDTYPE := Resurrection-Remix-LP-v5.5.4
+    # OFFICIAL Version Release of RR
+    CM_BUILDTYPE := Resurrection-Remix-LP-v5.5.5
     CM_EXTRAVERSION :=
 endif
 
