@@ -30,6 +30,7 @@ kernel/samsung/msm7x30
 - Re-added entry for sio scheduler (credits: nilac8991)
 - block: Corrected entry for sio scheduler (credits: nilac8991)
 - gpu: ion: Adding NULL po,nter and NULL function checks (credits: sirmordred)
+- msm7x30: Use tuned options when compiling (credits: sirmordred)
 
 for ancora: 
 
@@ -39,11 +40,13 @@ device/samsung/ancora
 
 kernel/samsung/msm7x30-common
 
+- sysrq: Emergency Remount R\O in reverse order (credits: sirmordred)
+- defconfigs: ancora: Switch to CFQ (credits: sirmordred)
+- block: cfq: Squashed update (credits: sirmordred)
 - drivers: input: melfas: Implement BLN (credits: sirmordred)
-- drivers: input: melfas: Fix ifdefs (credits: sirmordred)
-- drivers: input: melfas: Add more checks for BLN logic to stabilize regulator on/off (credits: sirmordred)
 - gpu: ion: Adding NULL po,nter and NULL function checks (credits: sirmordred)
-- defconfigs: ancora: Corrected bcmdhd fw paths (credits: sirmordred)  
+- defconfigs: ancora: Corrected bcmdhd fw paths (credits: sirmordred)
+- msm7x30: Use tuned options when compiling (credits: sirmordred)
   
 #Resurrection Remix 5.5.4
 
