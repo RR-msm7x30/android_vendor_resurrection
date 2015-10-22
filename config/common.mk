@@ -67,8 +67,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
+ifneq ($(TARGET_BUILD_VARIANT),user)
 # Thank you, please drive thru!
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.dun.override=0
+endif
 
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 # Enable ADB authentication
@@ -112,6 +114,14 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit
 endif
 
+# PitchBlack Theme
+#PRODUCT_COPY_FILES += \
+#    vendor/cm/prebuilt/PitchBlack/com.resurrectionremix.pitchblack.apk:system/priv-app/PitchBlack/com.resurrectionremix.pitchblack.apk
+
+# KernelAdiutor
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/KernelAdiutor/KernelAdiutor.apk:system/priv-app/KernelAdiutor/KernelAdiutor.apk
+
 # CM-specific init file
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.local.rc:root/init.cm.rc
@@ -121,10 +131,9 @@ PRODUCT_COPY_FILES +=  \
     vendor/cm/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/cm/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
 
-# Chromium prebuilt
-ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
--include prebuilts/chromium/$(TARGET_DEVICE)/chromium_prebuilt.mk
-endif
+# Copy over added mimetype supported in libcore.net.MimeUtils
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/lib/content-types.properties:system/lib/content-types.properties
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
@@ -166,8 +175,9 @@ PRODUCT_PACKAGES += \
     CMHome \
     OTAUpdates \
     RRWallpapers \
-    OmniSwitch	
-    
+    OmniSwitch \
+    CMSettingsProvider
+
 # SuperSU
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
@@ -295,7 +305,7 @@ ifdef CM_BUILDTYPE
     endif
 else
     # OFFICIAL Version Release of RR
-    CM_BUILDTYPE := Resurrection-Remix-LP-v5.5.5
+    CM_BUILDTYPE := Resurrection-Remix-LP-v5.5.8
     CM_EXTRAVERSION :=
 endif
 
@@ -354,7 +364,7 @@ ifndef CM_PLATFORM_SDK_VERSION
   # the SDK are released.  It should only be incremented when the APIs for
   # the new release are frozen (so that developers don't write apps against
   # intermediate builds).
-  CM_PLATFORM_SDK_VERSION := 2
+  CM_PLATFORM_SDK_VERSION := 3
 endif
 
 ifndef CM_PLATFORM_REV
