@@ -9,6 +9,48 @@ Sources code:
   Website: http://www.resurrectionremix.com
   For extended changelog, track Github activities
 
+#Resurrection Remix 5.5.8
+
+- Sources synced with the latest ones from CM
+- Merged latest security fixes for Stagefright vulnerabilities
+- Removed many of my theme changes from the previous release (PitchBlack Integration)
+- Switched to stable branches so this release is the first stable release (No more Nightlies)
+- Merged all the latest RR Changes from 5.5.6 to 5.5.8
+
+for both devices
+
+kernel/samsung/msm7x30
+
+- block: bfq: Squashed update from BFQ-v7r5 to BFQ-v7r8 (credits: mikeNG)
+- lowmemorykiller: avoid false adaptive LMK triggers (credits: Vinayak Menon)
+- mm: vmpressure: scale pressure based on reclaim context (credits: Vinayak Menon)
+- mm: vmpressure: account allocstalls only on higher pressures (credits: Vinayak Menon)
+- mm: vmpressure: fix backport (credits: nardholio)
+
+hardware/qcom/display-caf/msm7x30
+
+- drivers: media: video: sr030pc30: Fixed indentation (credits: cyanogen)
+- hwc: Set ioprio for vsync thread (credits: cyanogen)
+
+hardware/qcom/media-caf/msm7x30
+
+- Revert "mm-video: Build video test programs with 'debug' tag" (credits: mikeNG)
+
+hardware/qcom/audio-caf/msm7x30
+
+- audio/msm7x30: Silence LPA log spam (credits: mikeNG)
+- audio/msm7x30: fix -Wreorder warnings (credits: mikeNG)
+
+for ancora
+
+kernel/samsung/msm7x30-common
+
+- Revert "defconfigs: ancora: Corrected bcmdhd fw paths" (credits: sirmordred)
+- drivers: media: video: ancora: Various fixes and cleanups to sensor drivers (credits: sirmordred)
+- drivers: media: video: s5k4ecgx: Fix indentation (credits: sirmordred)
+- drivers: media: video: sr030pc30: Fixed indentation (credits: sirmordred)
+
+
 #Resurrection Remix 5.5.5
   
 - Sources synched with the latest ones from CM
